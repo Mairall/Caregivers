@@ -1,0 +1,57 @@
+body {
+    font-family: 'Noto Sana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #201b2c;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.password-reset-box {
+    background-color: #2b134b;
+    border: 1px solid #514869;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: rgb(113, 200, 240);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(113, 200, 240);
+}
+
+button {
+    color: rgb(113, 200, 240);
+    background-color: #514869;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+   background-color: rgb(118, 118, 238);
+}
