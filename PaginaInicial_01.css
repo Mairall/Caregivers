@@ -54,7 +54,7 @@ body {
 
 .card-login > h1{
     color: plum;
-    font-weight: 800;
+    font-weight:8 800;
     margin: 0;
 }
 
@@ -112,6 +112,19 @@ body {
     border: none;
     border-radius: 10px;
     padding: 8px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 10pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+
+.registrar {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
     background: #514869;
     color: #f0ffffde;
     font-size: 10pt;
